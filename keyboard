@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+STATE=$(xset -q | grep Group | awk '{ print $4 }')
+COLOR="#FFFFFF"
+LAYOUT="EN"
+
+case $STATE in
+  on )
+    LAYOUT="UA"
+    COLOR="#FF0000"
+    ;;
+  * )
+    ;;
+esac
+
+echo $LAYOUT
+echo $LAYOUT
+echo $COLOR
