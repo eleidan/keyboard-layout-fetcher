@@ -1,1 +1,3 @@
-# keyboard_layout_fetcher
+# Keyboard Layout Fetcher
+
+Tiny script for fetching current keyboard layout.
